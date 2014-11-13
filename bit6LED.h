@@ -1,12 +1,15 @@
+/********************
+ bit6LED 
+ 6LEDs drive library for bitDuino using charlieplexing.
+
+ 2014/11/13 @maris_HY
+********************/
+
 #ifndef BIT6LED_h
 #define BIT6LED_h
 
 #include <inttypes.h>
 #include <arduino.h>
-
-#define BRL_R	0
-#define BRL_G	1
-#define BRL_B	2
 
 void setLEDValue(byte led,byte value);
 void TurnOn1LED(byte led);

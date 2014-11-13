@@ -1,3 +1,9 @@
+/********************
+ bit6LED 
+ 6LEDs drive library for bitDuino using charlieplexing.
+
+ 2014/11/13 @maris_HY
+********************/
 
 #include "bit6LED.h"
 #include "wiring_private.h"
